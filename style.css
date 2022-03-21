@@ -1,0 +1,21 @@
+body{
+    background: antiquewhite;
+}
+.block{
+    width: 800px;
+    margin:  4rem auto;
+}
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.accordion {
+    border: 2px dashed #ffffff;
+    padding: 20px;
+}
+
+.content {
+    transition: 0.3s ease-in-out ;
+    max-height: 0;
+    overflow: hidden;
+}
